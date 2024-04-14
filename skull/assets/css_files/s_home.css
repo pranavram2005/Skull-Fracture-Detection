@@ -1,0 +1,48 @@
+    
+.whole{
+    background-color: white;
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left: 120px;
+
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+
+}
+.titles{
+    text-align: center;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.block{
+    height: 60px;
+}
+ 
+.box{
+    margin: -50px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images > div > a{
+    text-decoration: none;
+    color: black;
+}

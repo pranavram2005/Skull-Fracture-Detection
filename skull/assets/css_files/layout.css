@@ -1,0 +1,22 @@
+img {
+    width: 40px;
+}
+.heading{
+    font-size: x-large;
+}
+i{
+    font-size:48px;
+    color:white;
+}
+.effect > ul > a{
+    color: white;  
+    border-radius: 20px;
+
+}
+.effect > ul > a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;  
+    
+}
+

@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="{% static 'css_files\s_home.css' %}">
+    <link rel="stylesheet" href="{% static 'css_files\layout.css' %}">
+    <!-- Latest compiled and minified CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+   
+</head>
+<body>
+    <div><nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid effect">
+        <ul class="nav">
+            <li><a class="navbar-brand" href="/"><img src="{% static 'sk_logo.avif' %}" class="rounded "></img></a>
+            <a class="navbar-brand heading" href="/">SKULL DETECTION</a></li>   
+    <a href="{%url 'skull_home'%}" class="nav-link">HOME</a>
+        <a href="{%url 'detection'%}" class="nav-link">DETECTION</a>
+        <a href="{%url 'reconstruction'%}" class="nav-link">RECONSTRUCTION</a>
+    </ul>
+    
+      </div></nav></div>
+
+
+
+
+<div class="block"></div>
+        <div class='body'>
+        <div class="container">
+        <div class='log_body'>
+        <div class='text-center pt-5'><h1>SKULL FRACTURE</h1></div>
+        <div class='block'></div>
+        <div class="container box">
+            <div class='whole'>
+        <div class='images'>
+            <div><a href="{%url 'detection'%}"><h1>DETECTION</h1><img class="rounded" style="height: 200px;width: 200px;" src="{%static 'detect.jpg'%}"></a></div></div>
+            <div class='images'>
+                <div><a href="{%url 'reconstruction'%}"><h1>RECONSTRUCT</h1><img class="rounded" style="height: 200px;width: 300px;" src="{%static 'construct.jpg'%}"></a></div></div>
+        </div>
+        </div>
+        
+        </div></div></div>
+</body>
+</html>
